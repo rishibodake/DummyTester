@@ -1,10 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Test
 {
@@ -31,10 +26,10 @@ namespace Test
 
         public void Login1()
         {
-            Email.SendKeys("9028809305");
-            Password.SendKeys("jocky1234#");
+            Email.SendKeys("");
+            Password.SendKeys("");
             Login.Click();
         }
-        ///
+        //Test For RelesePipeLine
     }
 }
